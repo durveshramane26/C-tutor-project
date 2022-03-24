@@ -1,0 +1,18 @@
+<head>
+<style>
+img
+{
+	height:100px;
+	width:100px;
+}
+
+
+</style></head>
+	<body>
+	<div style="position:relative;">
+	<img src="f.jpg">
+		<div style="overflow:scroll;width:500px;height:490px;background-color:black;position:absolute;top:20px;left:30px;color:yellow;font-size:15px;opacity:0.35;">
+		</div>
+	</div>
+</body>
+

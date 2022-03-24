@@ -1,0 +1,48 @@
+<html>
+<style>
+	font-color:black;
+</style>
+<body>
+			IF ELSE STATEMENT:
+
+It is a extension of simple if statement.
+If test expression is true,then the true block statement, immediately following 
+the if statement are executed;otherwise the false block statement() are executed.
+In either case, either true-block(or) false block will be executed, not both.
+
+
+syntax:
+
+if(test expression)
+{
+	True block  statement;
+}
+else
+{
+	false block statement;
+}
+statement -x;
+
+
+Example:
+#include<stdio.h>
+int main()
+{
+	int a=5;
+	if(a<10)
+	{
+		printf("%d is less than 10\n",a);
+	}
+	else
+	{
+		printf("%d is greater than 10\n",a);
+	}
+	return 0;
+}
+
+
+output:
+5 is less than 10
+
+</body>
+</html>

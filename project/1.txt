@@ -1,0 +1,131 @@
+class whiledemo extends Thread 
+{
+	String s1_demo;
+	public void run()
+	{
+		try
+		{
+			Thread.sleep(2000);
+		}catch(InterruptedException e){System.out.println(e);}
+		while(true)
+		{
+			System.out.println("hello");
+			if(while_loop.f.isDisplayable()==false)
+			break;
+		
+			if(while_loop.i==0)
+			{
+				while_loop.l1_demo.setText("<html><h1>"+while_loop.i+"</h1></html>");
+				while_loop.l2_demo[while_loop.i].setText("<html><h3>"+while_loop.i+"&lt; 4 ;True</h3></html>");
+			
+				staticframe.d1.add(while_loop.l2_demo[while_loop.i]);
+				while_loop.l3_demo[while_loop.i]).setText("<html><h3>Hello world</h3></html>");
+				staticframe.d2.add(while_loop.l3_demo[while_loop.i]);
+				while_loop.l1.setText("<html><h3>Sample Code</h3><br>#include&lt;stdio.h&gt;<br>void main()<br>{<br>int x=4;<br>for(<span style='background-color:#FFFF00;'>int i=0;</span> <span style='background-color:#ADFF2F;'>i&lt;x</span>;i++)</html>");
+				while_loop.l2.setText("<html>{<br><span style='background-color:#FFE4B5;'>printf('Hello world');</span><br>}<br>printf('Bye');<br>}</html>");
+			
+				staticframe.c1.add(while_loop.l1);
+				staticframe.c1.add(while_loop.l2);
+				while_loop.i++;
+			}
+			if(while_loop.f.isDisplayable()==false)
+			{
+				break;
+			}
+			try
+			{
+				Thread.sleep(3000);
+			}catch(InterruptedException e){System.out.println(e);}
+			if(while_loop.i==1)
+			{
+				while_loop.l1_demo.setText("<html><h1>"+while_loop.i+"</h1></html>");
+				while_loop.l2_demo[while_loop.i].setText("<html><h3>"+while_loop.i+" &lt; 4 ;True</h3></html>");
+				staticframe.d1.add(while_loop.l2_demo[while_loop.i]);
+				while_loop.l3_demo[while_loop.i].setText("<html><h3>Hello World</h3></html>");
+				staticframe.d2.add(while_loop.l3_demo[while_loop.i]);
+				while_loop.i++;
+			
+				while_loop.l1.setText("<html><h3>Sample Code</h3><br>#include&lt;stdio.h&gt;<br>void main()<br>{<br>int x=4;<br>for(int i=0;<span style='background-color:#FFFF00;'>i&lt;x;</span><span style='background-color:ADFF2F;'>i++</span>)</html>");
+				while_loop.l2.setText("<html>{<br><span style='background-color:#FFE4B5;'>printf('Hello World');</span><br>}<br>printf('Bye');<br>}</html>");
+				staticframe.c1.add(while_loop.l1);
+				staticframe.c1.add(while_loop.l2);
+			}
+			if(while_loop.f.isDisplayable()==false)
+				break;
+			try
+			{
+				Thread.sleep(3000);
+			}catch(InterruptedException e){System.out.println(e);}
+			if(while_loop.i==2)
+			{
+				while_loop.l1_demo.setText("<html><h1>"+while_loop.i+"</h1></html>");
+				while_loop.l2_demo[while_loop.i].setText("<html><h3>"+while_loop.i+"&lt; 4 ;True</h3></html>");
+				staticframe.d1.add(while_loop.l2_demo[while_loop.i]);
+				while_loop.l3_demo[while_loop.i].setText("<html><h3>Hello world</h3></html>");
+				staticframe.d2.add(while_loop.l3_demo[while_loop.i]);
+				while_loop.i++;
+			}
+			if(while_loop.f.isDisplayable()==false)
+			{
+				break;
+			}
+			try
+			{
+				Thread.sleep(3000);
+			}catch(InterruptedException e){System.out.println(e);}
+			if(while_loop.i==3)
+			{
+				while_loop.l1_demo.setText("<html><h1>"+while_loop.i+"</h1></html>");
+				while_loop.l2_demo[while_loop.i].setText("<html><h3>"+while_loop.i+" &lt; 4 ; True</h3></html>");
+				staticframe.d1.add(while_loop.l2_demo[while_loop.i]);
+				while_loop.l3_demo[while_loop.i].setText("<html><h3>Hello World</h3></html>");
+				staticframe.d2.add(while_loop.l3_demo[while_loop.i]);
+				while_loop.i++;
+			}
+			if(while_loop.f.isDisplayable()==false)
+			{
+				break;
+			}
+			try
+			{
+				Thread.sleep(3000);
+			}catch(InterruptedException e){System.out.println(e);}
+				
+			if(while_loop.i==4)
+			{
+				while_loop.l1_demo.setText("<html><h1>"+while_loop.i+"</h1></html>");
+				while_loop.l2_demo[while_loop.i].setText("<html><h3>"+while_loop.i+" &lt; 4 ; False</h3></html>");
+				staticframe.d1.add(while_loop.l2_demo[while_loop.i]);
+				while_loop.l3_demo[while_loop.i].setText("<html><h3>Bye</h3></html>");
+				staticframe.d2.add(while_loop.l3_demo[while_loop.i]);
+				while_loop.i++;
+				while_loop.l1.setText("<html><h3>Sample Code:</h3><br>#include&lt;stdio.h&gt;<br>void main()<br>{<br> int x=4;<br>for(int i=0;<span style='background-color:#FFFF00;'>i&lt;x;</span><span style='background-color:#ADFF2F;'>i++</span>)</html>");
+				while_loop.l2.setText("<html>{<br>printf('Hello world');<br>}<br><span style='background-color:#FFE4B5;'>printf('Bye');</span><br>}</html>");
+				staticframe.c1.add(while_loop.l1);
+				staticframe.c1.add(while_loop.l2);
+			}
+			if(while__loop.f.isDisplayable()==false)
+			{
+				break;
+			}
+			try
+			{
+				Thread.sleep(3000);
+			}catch(InterruptedException e){System.out.println(e)};
+			
+			if(while_loop.i==5)
+			{
+				while_loop.i=0;
+				for(int J=0;J<5;J++)
+				{
+					while_loop.l2_demo[J].setText("");
+					staticframe.d1.add(while_loop.l2_demo[J]);
+					while_loop.l3_demo.setText("");
+					staticframe.d2.add(while_loop.l3_demo[J]);
+				}
+			}
+			if(while_loop.f.isDisplayable()==false)
+				break;
+		}
+	}
+}

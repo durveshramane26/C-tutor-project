@@ -1,0 +1,62 @@
+
+<center><h1><u>SWITCH STATEMENT</u></h1></center><br>
+A switch statement  allows a varaible to be tested for equality against a list of values.
+<br>Each value is called a case,and the variable being switched on is checked for each switch case.<br>
+
+<b>&nbsp;&nbsp;&nbsp;Syntax:
+&nbsp;&nbsp;&nbsp;&nbsp;switch(expression)
+</b>
+&nbsp;&nbsp;&nbsp;&nbsp;
+{<br>switch(expression)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case constatnt-expression:<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statement(s);<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case constatnt-expression:<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statement(s);<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;switch(expression)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case constatnt-expression:<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;statement(s);<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;<br>
+/* You can have any  number case statements*/
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+default://Optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+statement(s);
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+}
+
+<br><br><u>Flowchart</u><br><img src="file:homeimg.png"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The following rules apply to the switch statement:
+<br><br>
+1.The expression used in the switch statement must have an integral or enumerated type,or be of a<br>class type in which the class has a single conversion function to an integral or enumerated type.
+<br><br>
+2.You can have any number of case statements within switch.Each case is followed by the value to <br> be compared to and a semi-colon.
+<br><br>
+3.The constant expression for the case must be the4 same datatype as the variable in the switch.<br>and it must be a constant or literal.
+<br><br>
+4.When the variable is being switched is on is equal to the case ,the statement following that case will <br> execute unti a break statement is reached.
+<br><br>
+5.When a break statement is reached the switch treminates tand the flow of control jumps to the<br>next line following the switch statemnt.
+<br><br>
+6.Not every case need to contain a break.If no break appears,the flow of contreol will fall through <br>to the subsequent cases until a break is reached.
+<br><br>
+7.A switch statement can have an optional default case,which must appear tat the end of the switch.<br>The default case can be used for performing a task when none of the cases is true.<br>No break is required for the default case.
+<br>
+
+

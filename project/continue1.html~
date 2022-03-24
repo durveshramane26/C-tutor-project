@@ -1,0 +1,37 @@
+<center><h1><u>UNCONDITIONAL CONTROL STATEMENT</u></h1></center>
+
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTINUE;</h2>
+<h2><u>Flow Chart</u></h2>
+<br>
+<!--img src="file:breaks.png"-->
+The continue statement in C programming works somewhat like the break statement.Instead of forcing termination,it forces the next iteration of the loop to take place,skipping any code in between.
+For the 'for' loop, 'continue' statement causes the conditional test and increment portions of the loop to execute.For the while and do..while loops,continue statement causes the program control to pass to the conditional tests/
+
+Syntax:
+	
+continue;
+
+Example:
+#include<stdio.h>
+int main()
+{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int a=10;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;do
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(a==15)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a=a+1;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("value of a:%d\n",a);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}while(a&lt;20);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 0;
+}      				
+
+
+
+
+
+
+
+

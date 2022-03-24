@@ -1,0 +1,35 @@
+<center><h1><u>UNCONDITIONAL CONTROL STATEMENT</u></h1></center>
+
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BREAK STATEMENT</h2>
+
+The break statement in C programming has the following two uses:<br><br>
+1.When a break statement is encountered inside a loop,the loop is immediately  terminated and the program control <br>resumes at the statement following the loop.
+
+2.It can be used to terminate a case in the switch statement.
+<h2><u>Flow Chart</u></h2>
+<center>
+<img src="file:breaks1234.png" height="200px" width="200px"/>
+</center>
+<br>
+Syntax:
+
+break;
+
+Example:<br>
+#include&lt;stdio.h&gt;
+int main()
+{
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	while(a&lt;20)
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{
+		 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;printf("value of a:%d\n",a);
+		 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a++;
+		 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if(a&gt;15)
+		 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{
+		 &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;break;
+		 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}
+		 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}
+		 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;return 0;
+}
+
+when the  value of 'a' becomes greater than or equal to 15, the loop will immediately terminate and the program<br> control resumes at the statement following the loop.

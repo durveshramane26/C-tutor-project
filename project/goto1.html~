@@ -1,0 +1,36 @@
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<pre><h1>      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>UNCONDITIONAL CONTROL STATEMENT</u></h1></pre>
+
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GOTO;</h2>
+<h2><u>Flow Chart</u></h2>
+<br>
+<p>
+<center>
+<img src="file:goto.png"></center>
+The goto statement in C programming provides an unconditional jump from the 'goto' to a labeled statement in the same function.
+Use of goto statement is highly discouraged in any programming language because it makes difficult to trace the control flow of a program,making the program hard to understand and hard to modify. Any program that uses a goto can be rewritten to avoid them.
+
+
+Syntax:
+goto label;
+..
+.
+label: statement;
+
+Example:
+	#include<stdio.h>
+	int main()
+	{
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int a=10;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		LOOP:do{
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(a==15)
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	{
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			a=a+1;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				goto LOOP;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			}
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			a++;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		}while(a<20);
+				return 0;
+	}
+
+
